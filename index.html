@@ -22,28 +22,32 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
 		crossorigin="anonymous"></script>
-	<nav class="navbar navbar-expand-lg fw-semibold fixed-top position-sticky bg-white">
+	<nav class="navbar navbar-expand-lg fw-semibold fixed-top bg-white">
 		<div class="container-fluid">
 			<div class="navbar-brand text-black fs-2 fw-bold mx-5">CyberM5</div>
-			<div class="collapse navbar-collapse d-flex justify-content-around">
-				<ul class="navbar-nav d-flex gap-3 mx-5">
-					<li class="nav-item fs-5">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+				aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse text-center" id="navbarToggler">
+				<ul class="navbar-nav m-auto fs-5">
+					<li class="nav-item ">
 						<a href="#" class="nav-link">Home</a>
 					</li>
-					<li class="nav-item fs-5">
+					<li class="nav-item ">
 						<a href="#" class="nav-link">Pages</a>
 					</li>
-					<li class="nav-item fs-5">
+					<li class="nav-item ">
 						<a href="#" class="nav-link">Portfolio</a>
 					</li>
-					<li class="nav-item fs-5">
+					<li class="nav-item ">
 						<a href="#" class="nav-link">Blog</a>
 					</li>
-					<li class="nav-item fs-5">
+					<li class="nav-item ">
 						<a href="#" class="nav-link">Contact</a>
 					</li>
 				</ul>
-				<div class="tel-menu">
+				<div class="tel-menu m-auto">
 					<section class="navbar-text fs-5">
 						Call us <a href="#" class="text-black">(+990) 123 456 112</a>
 					</section>
@@ -55,24 +59,24 @@
 		</div>
 	</nav>
 	<div class="container my-5 py-5 display-5">
-		<div class="d-flex justify-content-around">
-			<div class="col me-5">
+		<div class="d-flex row justify-content-around">
+			<div class="col col-sm me-5">
 				<div class="text-wrapper">
 					<p class="text-danger fs-5">
 						Top Brands Trust Our Digital Services!
 					</p>
 					<p class="text-black fw-bold fs-2 my-4">
-						Robust Search Engine Marketing <br />
+						Robust Search Engine Marketing
 						Stratergies for 100% Results
 					</p>
-					<p class="fs-5 fw-normal">
+					<p class="fs-5">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
 						<br />
 						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
 						quis nostrud ullamco laboris nisi.
 					</p>
 				</div>
-				<div class="d-flex justify-content-lg-start gap-5 my-4">
+				<div class="d-flex justify-content-start gap-5 my-4">
 					<button type="button" class="btn btn-lg btn-danger px-5 py-2">
 						Start Now
 					</button>
@@ -81,21 +85,21 @@
 					</button>
 				</div>
 			</div>
-			<div class="col align-self-end">
-				<img class="w-75 mx-5 float-end"
+			<div class="col col-sm align-self-end">
+				<img class="mx-4 float-end img-fluid"
 					src="https://mobirise.com/extensions/cyberm5/digital-marketing/assets/images/undraw-all-the-data-re-hh4w-1.svg"
 					alt="" />
 			</div>
 		</div>
 	</div>
 	<br>
-	<div class="container d-flex py-5 my-5">
+	<div class="container d-sm-flex">
 		<div class="col">
 			<p class="fs-5" style="color: rgb(255, 122, 65);">Our Services</p>
 			<h6 class="h1 display-2">Services we offer</h6>
 		</div>
 		<div class="col">
-			<p class="fs-5">
+			<p class="fs-5 ">
 				Sed ut perspiciatis unde omnis iste natus error sit voluptatem
 				accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
 				ab illo inventore veritatis et quasi architecto beatae vitae dicta
@@ -106,8 +110,8 @@
 		</div>
 	</div>
 	<div class="container">
-		<div class="d-flex justify-content-center flex-nowrap gap-5 px-5">
-			<div class="py-5 col-sm-3">
+		<div class="d-flex row justify-content-center g-5 p-5 container-sm">
+			<div class="col col-sm">
 				<i class="bi bi-airplane-engines display-6 " style="color: rgb(255, 122, 65);"></i>
 				<div class="card-body mt-4">
 					<h5 class="card-title fw-semibold">SEO Consultancy</h5>
@@ -118,7 +122,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="py-5 col-sm-3">
+			<div class=" col col-sm">
 				<i class="bi bi-journal-text display-6 " style="color: rgb(255, 122, 65);"></i>
 				<div class="card-body mt-4">
 					<h5 class="card-title fw-semibold">Content Marketing</h5>
@@ -129,7 +133,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="py-5 col-sm-3">
+			<div class="col col-sm">
 				<i class="bi bi-key display-6 " style="color: rgb(255, 122, 65);"></i>
 				<div class="card-body mt-4">
 					<h5 class="card-title fw-semibold">Keyword Research</h5>
@@ -143,21 +147,21 @@
 		</div>
 	</div>
 	<div class="container py-5 my-5">
-		<div class="row">
-			<div class="col">
+		<div class="d-flex flex-lg-row flex-sm-column gap-5">
+			<div class="col col-sm">
 				<h4 class="my-2" style="color: rgb(255, 122, 65);">Maximize Your buisiness growth</h4>
 				<p class="h1 display-2 fw-semibold">
 					Crafting out a niche for your online business
 				</p>
-				<h5 class="my-4">
+				<p class="h5 my-4">
 					Sed ut perspiciatis unde omnis iste natus error sit voluptatem
 					accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
 					quae ab illo inventore veritatis et quasi architecto beatae vitae
 					dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
 					aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
 					eos qui ratione voluptatem.
-				</h5>
-				<div class="d-flex justify-content-lg-start gap-5 my-5">
+				</p>
+				<div class="d-flex justify-content-start flex-lg-row flex-sm-column gap-5 my-5">
 					<button type="button" class="btn btn-lg btn-danger px-5 py-2">
 						Start Now
 					</button>
@@ -166,21 +170,18 @@
 					</button>
 				</div>
 			</div>
-			<div class="col w-75">
-				<img class="w-75 float-end"
+			<div class="col col-sm">
+				<img class="img-fluid"
 					src="https://mobirise.com/extensions/cyberm5/digital-marketing/assets/images/undraw-marketing-re-7f1g.svg"
 					alt="" />
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid" style="background-color: rgb(255, 122, 65)">
-		<br />
-		<br />
-		<br />
+	<div class="container-fluid pt-5" style="background-color: rgb(255, 122, 65)">
 		<p class="text-center h1 display-3 text-light fw-semibold">
 			How can we help?
 		</p>
-		<div class="d-flex justify-content-between flex-nowrap gap-5 px-5 text-light">
+		<div class="row justify-content-center text-light">
 			<div class="card py-5 col-sm-3 bg-transparent" style="border: none">
 				<i class="bi bi-search display-6 ms-3 mb-2" style="color: brown"></i>
 				<div class="card-body">
@@ -215,7 +216,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="d-flex justify-content-between flex-nowrap gap-5 px-5 text-light">
+		<div class="row justify-content-center text-light">
 			<div class="card py-5 col-sm-3 bg-transparent" style="border: none">
 				<i class="bi bi-airplane-engines display-6 ms-3 mb-2" style="color: brown"></i>
 				<div class="card-body">
@@ -252,9 +253,9 @@
 		</div>
 	</div>
 	<div class="container my-5 mt-5 pt-5">
-		<div class="row justify-content-center">
-			<div class="col-12 col-lg-6 col-xxl-7">
-				<img class="w-100 img-fluid py-5"
+		<div class="row justify-content-center ">
+			<div class="col ">
+				<img class=" img-fluid"
 					src="https://mobirise.com/extensions/cyberm5/digital-marketing/assets/images/undraw-investment-data-re-sh9x.svg"
 					alt="" />
 			</div>
@@ -284,20 +285,20 @@
 	<div class="container my-5 py-5">
 		<div class="container rounded-5 p-4 text-center text-light my-5 py-5"
 			style="background-color: rgb(255, 122, 65)">
-			<div class="row">
-				<div class="col">
+			<div class="row gap-5">
+				<div class="col-sm">
 					<p class="h2 display-2">
 						<strong>3878</strong>
 					</p>
 					<p class="h5">Satisfied Customer</p>
 				</div>
-				<div class="col">
+				<div class="col-sm">
 					<p class="h2 display-2">
 						<strong>2045</strong>
 					</p>
 					<p class="h5">Successful Projects</p>
 				</div>
-				<div class="col">
+				<div class="col-sm">
 					<p class="h2 display-2">
 						<strong>25</strong>
 					</p>
@@ -312,7 +313,7 @@
 				What Our client's say
 			</p>
 		</div>
-		<div class="container p-5">
+		<div class="container p-5 ">
 			<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-interval="3000"
 				data-bs-ride="carousel">
 				<div class="carousel-indicators">
@@ -381,13 +382,13 @@
 		</div>
 	</div>
 
-	<div class="container-fluid my-5 ">
+	<div class="container-fluid my-5 d-flex justify-content-center">
 		<div class="row container p-5 m-3 align-items-center">
 			<div class="col container">
 				<p class="h4" style="color: rgb(255, 122, 65);">Why Chose Us</p>
 				<p class="h3 fw-semibold">An array of online Marketing <br />Services</p>
-				<div class="container mt-5 d-flex flex-column gap-5">
-					<div class="container d-flex justify-content-center gap-5 col-11">
+				<div class="row container mt-5 ">
+					<div class="col container d-flex justify-content-center gap-5 col-11">
 						<div class="card-number border rounded-circle text-center"
 							style="width: 50px; height: 50px; border: 1px solid red;">
 							<p class="mt-1 p-2" style="color: rgb(255, 122, 65)"> 1</p>
@@ -425,23 +426,23 @@
 					</div>
 				</div>
 			</div>
-			<div class="col w-75 container">
-				<img class="w-75 float-end"
+			<div class="col-sm mt-5">
+				<img class="img-fluid"
 					src="https://mobirise.com/extensions/cyberm5/digital-marketing/assets/images/undraw-pie-graph-re-fvol.svg"
 					alt="" />
 			</div>
 		</div>
 	</div>
-	<div class="container text-center">
-		<div class="container text-center">
+	<div class="container mt-5 text-center">
+		<div class="container text-center mb-5">
 			<p class="fs-3" style="color: rgb(255, 122, 65)">
 				Best SEO Plan & Package
 			</p>
 			<p class="h1 display-2">Our Pricing Plans</p>
 		</div>
 		<div class="container">
-			<div class="d-flex justify-content-center flex-nowrap gap-5 my-5 mx-5">
-				<div class="py-5 col text-center card">
+			<div class="row d-flex justify-content-center gap-5 ">
+				<div class="py-5 col-sm text-center card">
 					<h5>Standard</h5>
 					<div class="card-body">
 						<div class="price-container d-flex justify-content-center">
@@ -463,7 +464,7 @@
 						</button>
 					</div>
 				</div>
-				<div class="card py-5 col  text-center text-light" style="background-color: rgb(255, 122, 65)">
+				<div class="card py-5 col-sm  text-center text-light" style="background-color: rgb(255, 122, 65)">
 					<h5>Standard</h5>
 					<div class="card-body">
 						<div class="price-container d-flex justify-content-center">
@@ -488,7 +489,7 @@
 						</button>
 					</div>
 				</div>
-				<div class="card py-5 col text-center">
+				<div class="card py-5 col-sm text-center">
 					<h5>Standard</h5>
 					<div class="card-body">
 						<div class="price-container d-flex justify-content-center">
@@ -515,19 +516,19 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-12 col-xxl-5 col-xl-6 col-lg-7 m-auto">
+		<div class="col-12 col-xxl-5 col-xl-6 col-lg-7 m-auto mt-5">
 			<h5 class="mbr-section-subtitle mbr-fonts-style align-center ">
 				Excepteur sint occaecat cupidatat non proident,
 				sunt in culpa qui officia deserunt mollit.
 			</h5>
 		</div>
 	</div>
-	<div class="container-fluid mt-5 mb-0" style="background-color:rgb(255, 122, 65)">
-		<div class="container row justify-content-center align-items-center p-5 ms-5">
-			<div class="col">
+	<div class="container-fluid mt-5 mb-0 d-flex justify-content-center" style="background-color:rgb(255, 122, 65)">
+		<div class="container row align-items-center">
+			<div class="col-sm">
 				<p class="h1 display-2 text-light">Avail Free SEO Quotes Now</p>
 			</div>
-			<div class="col">
+			<div class="col-sm">
 				<div class="input-group mb-3 rounded-4">
 					<input type="text" class="form-control form-control-lg p-3" placeholder="Enter your email"
 						aria-label="guest email" aria-describedby="button-addon2">
